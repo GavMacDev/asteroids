@@ -50,7 +50,7 @@ def main():
             for shot in shots:
                 if a.collision(shot):
                     shot.kill()
-                    a.kill()
+                    a.split()
 
         screen.fill("black")
 
